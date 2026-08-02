@@ -1,7 +1,28 @@
 aid: syntax-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/syntax-bio.png
 name: Syntax Bio
-description: Syntax Bio is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Syntax Bio is a synthetic biology company programming the next generation of
+  cell therapies. Its proprietary Cellgorithm platform uses a CRISPR-based
+  system to program and accelerate stem cell differentiation, replacing slow,
+  labor-intensive processes with a rapid, programmable approach that mimics
+  human development to generate diverse functional cell types at scale. The
+  company is advancing pancreatic beta cell therapy for type 1 diabetes and is
+  backed by DCVC Bio, Astellas Venture Management, Illumina Ventures, and
+  others. Added to the API Evangelist network as a portfolio company of dcvc;
+  enrichment found no public API, developer portal, SDK, or programmatic
+  developer surface as of this pass.
 url: https://raw.githubusercontent.com/api-evangelist/syntax-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Synthetic Biology
+- Biotechnology
+- Cell Therapy
+- Life Sciences
+- Stem Cells
+- CRISPR
+- Regenerative Medicine
 apis: []
+common:
+- type: Website
+  url: https://www.syntax-bio.com/home
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
